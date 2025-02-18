@@ -15,6 +15,31 @@ Prošli jsme z prezentace slidy 1-19:
 - tabulky
 
 ## 18. Úno 2025, Út 17:30–20:30 -- HTML: Formuláře
+Prošli jsme z prezentace slidy 20-39:
+- formuláře
+  - action
+  - method: rozdíl mezi GET a POST
+  - pole formuláře:
+    - text
+    - textarea
+    - select
+    - checkbox
+    - radio
+    - file
+    - submit
+    - date
+    - password
+    - number
+    - hidden
+    - label
+- lineární a blokové prvky
+- DevTools v prohlížeči
+
+### Domácí úkol
+Vytvořit formuláře, které se nám budou hodit v aplikaci filmové databáze, například:
+- formulář pro vkládání informací k filmu
+- formulář pro vkládání informací k hercům/herečkám
+- případně další, které se můžou hodit (žánr,...)
 
 ## 19. Úno 2025, St 17:30–20:30 -- CSS: Úvod
 

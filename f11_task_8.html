@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Úkol 8</title>
+</head>
+<body>
+
+<h1>Zadání</h1>
+<img src="images/task_8.png" width="500px">
+
+<hr>
+
+<h1>Fill out this form to select the car of your dreams</h1>
+
+<form method="get">
+    <fieldset>
+        <legend>Main data</legend>
+
+        <label for="brand">Brand:</label>
+        <select name="brand" id="brand">
+            <option value="0" selected>-- Select --</option>
+            <option value="1">Škoda</option>
+            <option value="2">Opel</option>
+            <option value="3">Fiat</option>
+            <option value="4">VW</option>
+        </select>
+        <br> <br>
+
+        <label for="type_sedan">Type:</label> <br>
+        <input type="radio" name="type" id="type_sedan"> Sedan
+        <input type="radio" name="type" id="type_SUV"> SUV
+        <input type="radio" name="type" id="type_Combi"> Combi
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="year">Production year:</label>
+        <input type="number" min="2015" max="2025" name="year" id="year" value="2020">
+        <br><br>
+
+        <label for="color_green">Color:</label> <br>
+        <input type="checkbox" name="color_green" id="color_green"> Green <br>
+        <input type="checkbox" name="color_red" id="color_red"> Red <br>
+        <input type="checkbox" name="color_white" id="color_white"> White <br>
+        <input type="checkbox" name="color_black" id="color_black"> Black
+        <br><br>
+
+        <label for="photo">Add a photo:</label>
+        <input type="file" name="photo" id="photo">
+    </fieldset>
+
+    <fieldset>
+        <legend>Send</legend>
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </fieldset>
+</form>
+
+</body>
+</html>
