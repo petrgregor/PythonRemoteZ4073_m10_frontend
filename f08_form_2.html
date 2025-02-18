@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulář</title>
+</head>
+<body>
+
+<form method="get" action="index.html">
+    <fieldset>
+        <legend>Osobní údaje:</legend>
+        <label for="firstname">Jméno: </label>
+        <input type="text" name="firstname" id="firstname"> <br>
+
+        <label for="lastname">Příjmení:</label>
+        <input type="text" name="lastname" id="lastname"> <br>
+    </fieldset>
+    <label for="biography">Biografie:</label>
+    <textarea cols="50" rows="10" name="biography" id="biography"></textarea> <br>
+
+    <label for="city">Město:</label>
+    <select name="city" id="city">
+        <option value="1">Praha</option>
+        <option value="2">Brno</option>
+        <option value="3">Ostrava</option>
+    </select> <br>
+
+    <label for="accept">Souhlas s podmínkami:</label> <br>
+    <input type="checkbox" name="accept" id="accept"> Souhlasím se zpracováním osobních údajů <br>
+    <input type="checkbox" name="accept2" id="accept2"> Souhlasím se zasláním dotazníku spokojenosti. <br>
+
+    <label for="sex_f">Pohlaví:</label> <br>
+    <input type="radio" name="sex" id="sex_f" value="žena"> Žena <br>
+    <input type="radio" name="sex" id="sex_m" value="muž"> Muž <br>
+    <input type="radio" name="sex" id="sex_nonbinary" value="nebinární"> Nebinární <br>
+
+    <input type="file" name="cv" id="cv"> <br>
+
+    <label for="cars">Auto:</label>
+    <select name="cars" id="cars" multiple>
+        <option value="Škoda">Škoda</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Trabant">Trabant</option>
+        <option value="Audi">Audi</option>
+    </select> <br>
+
+    <label for="pwd">Heslo:</label>
+    <input type="password" id="pwd" name="pwd"><br>
+
+    <label for="date">Datum narození:</label>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="number">Počet certifikátů:</label>
+    <input type="number" min="0" max="10" id="number" name="number"> <br>
+
+    <input type="hidden" name="hiddeninput" value="Skrytá hodnota">
+
+    <input type="submit" value="Odeslat">
+
+</form>
+
+</body>
+</html>
