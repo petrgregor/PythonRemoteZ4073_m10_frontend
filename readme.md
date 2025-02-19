@@ -42,11 +42,41 @@ Vytvořit formuláře, které se nám budou hodit v aplikaci filmové databáze,
 - případně další, které se můžou hodit (žánr,...)
 
 ## 19. Úno 2025, St 17:30–20:30 -- CSS: Úvod
+Prošli jsme z prezentace slidy 40-92:
+- syntaxe
+- vložení css na stránku
+  - externí soubor (preferovaná volba)
+  - definice v hlavičce html souboru
+  - atribut style (inline)
+- kaskádový styl
+- dědičnost
+- komentáře
+- CSS: základní vlastnosti
+  - `color` (barva textu)
+  - `background-color` (barva pozadí)
+  - `border` (ohraničení)
+  - `text-align` (zarovnání textu)
+  - `font-weight` (tloušťka písma)
+  - `font-size` (velikost písma)
+  - `font-style` (styl písma)
+  - `background-image` (obrázek na pozadí)
+  - `list-style` (styl seznamu)
+- DevTools 
+- pozice prvků
+- jednotky míry
+
+### Domácí úkoly
+Z Journey -> Cvičení:
+- Cvičení 1 - úvod
+- Cvičení 2 - základy
+- Nastylovat html soubory z předchozích domácích úkolů 
 
 ## 24. Úno 2025, Po 17:30–20:30 -- CSS: pokračování
+- Box model
+- procvičování
 
-## 25. Úno 2025, Út 17:30–20:30 -- CSS: dokončení
+## 25. Úno 2025, Út 17:30–20:30 -- JavaScript: Úvod
 
-## 27. Úno 2025, Čt 17:30–20:30 -- JavaScript: Úvod
+## 27. Úno 2025, Čt 17:30–20:30 -- JavaScript: Pokračování
 
-## 4. Bře 2025, Út 17:30–20:30 -- JavaScript: Pokračování
+## 4. Bře 2025, Út 17:30–20:30 -- Procvičování
