@@ -1,0 +1,28 @@
+/* Nastavení těla stránky */
+body
+{
+    background-color: lightblue;
+}
+
+/* Nastavení nadpisu */
+h1
+{
+    color: red;
+    color: #FF0000;
+    color: #00FF00;
+    color: #0000FF;
+    color: #000055;
+    color: #009400;
+    color: #990099;
+    color: #8b0d94;
+    color: rgb(139, 13, 148);
+    color: hsl(0, 100%, 50%);
+    color: rgba(100, 23, 45, 0.5);
+}
+
+/* moje vlastní styly */
+.my-class-1
+{
+    color: #000055;
+    background-color: rgba(87, 89, 194, 0.5);
+}
