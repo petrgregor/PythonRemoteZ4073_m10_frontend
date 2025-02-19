@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* Nastavení těla stránky */
 body
 {
@@ -25,4 +27,48 @@ h1
 {
     color: #000055;
     background-color: rgba(87, 89, 194, 0.5);
+    border: 2px dotted black;
+    text-align: justify; /*left; right; center;*/
+    font-weight: 800;
+    font-size: 12px;
+    /*font-style: italic;*/
+    /*font-family: "Times New Roman", Times, serif;*/
+    font-family: "Roboto", sans-serif;
+}
+
+.float-left
+{
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    /*margin: 0 20px 0 10px;*/
+}
+
+ul
+{
+    list-style: lower-alpha;
+}
+
+div
+{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.father
+{
+    background-color: lightgreen;
+    height: 500px;
+}
+
+.child-pink
+{
+    background-color: lightpink;
+    height: 50px;
+}
+
+.child-blue
+{
+    background-color: lightblue;
+    height: 50px;
 }
