@@ -1,0 +1,19 @@
+.box-model {
+    width: 200px;
+    height: 200px;
+    /*Můžeme definovat každý rozměr zvlášť*/
+    /*padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;*/
+    /*padding: 20px; /* pokud jsou všechny mezery stejné */
+    /*padding: 30px 50px; /* první číslo definuje mezeru nahoře a dole, druhé číslo definuje mezeru po stranách */
+    padding: 10px 20px 30px 40px; /* horní, pravá, dolní a levá mezera */
+    border: 1px solid black;
+
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;*/
+    margin: 10px 20px 30px 40px;
+}

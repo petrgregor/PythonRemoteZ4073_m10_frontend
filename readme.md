@@ -72,8 +72,21 @@ Z Journey -> Cvičení:
 - Nastylovat html soubory z předchozích domácích úkolů 
 
 ## 24. Úno 2025, Po 17:30–20:30 -- CSS: pokračování
+Prošli jsme z prezentace slidy 93-99:
 - Box model
 - procvičování
+
+### Boostrap
+Knihovna [bootstrap](https://getbootstrap.com/)
+
+Další materiály:
+- [Dokumentace](https://getbootstrap.com/docs/5.0/content/typography/)
+- [Tutoriál na W3Schools](https://www.w3schools.com/bootstrap/default.asp)
+- [Online cheat-sheet](https://bootstrap-cheatsheet.themeselection.com/)
+- [Online cheat-sheet](https://www.shecodes.io/cheatsheets/bootstrap)
+
+### Domácí úkol
+Zadání na Slacku a ve složce [hw_css](hw_css).
 
 ## 25. Úno 2025, Út 17:30–20:30 -- JavaScript: Úvod
 
