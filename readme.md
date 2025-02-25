@@ -89,7 +89,86 @@ Další materiály:
 Zadání na Slacku a ve složce [hw_css](hw_css).
 
 ## 25. Úno 2025, Út 17:30–20:30 -- JavaScript: Úvod
+Prošli jsme z prezentace slidy 100-144:
+- vložení JavaScirptu do html stánky
+  - přímo v html kódu
+  - externí soubor (preferovaný způsob)
+- `console.log()`
+- komentáře
+  - blokové `/* comment */`
+  - řádkové `// comment`
+- podmíněné příkazy
+  - `if`
+  - `if-else`
+  - `else-if`
+  - `switch`
+- proměnné
+  - `const`
+  - `let`
+  - `var`
+  - globální proměnné
+  - pojmenování proměnných
+- datové typy
+  - string
+  - number
+  - boolean
+  - undefined
+  - null
+- referenční typy
+  - Objekty
+  - Pole (Arrays)
+  - Funkce
+- operátor typeof 
+- operátor instanceof
+- pole (arrays)
+  - `.push()`
+  - `.pop()`
+  - `.shift()`
+  - `.unshift()`
+  - `.join()`
+  - `.reverse()`
+  - `.sort()`
+  - `.concat()`
+  - `.forEach()`
+  - `.map()`
+  - `.includes()`
+  - `.filter()`
 
 ## 27. Úno 2025, Čt 17:30–20:30 -- JavaScript: Pokračování
+- pole (arrays)
+  - `.indexof()`
+  - `.slice()`
+  - `.splice()`
+  - `.length()`
+- DevTools
+- cykly
+  - `for`
+  - `forEach`
+  - `while`
+  - `do..while`
+  - `break`
+  - `continue`
+- objekty
+  - literal
+  - konstruktor
+  - `class`
+  - přístup k hodnotám
+- funkce
+  - parametry
+  - `return`
+  - anonymní funkce
+  - function expression
+  - Arrow funkce
+- DOM
+  - `window`
+  - `document`
+  - výběr prvků
+  - manipulace s DOM
+  - classList API
+- události (Events)
+  - `EventListener`
+- JSON
+- XHR požadavky
+  - AJAX 
 
-## 4. Bře 2025, Út 17:30–20:30 -- Procvičování
+## 4. Bře 2025, Út 17:30–20:30 -- Flask?
