@@ -164,11 +164,13 @@ Prošli jsme z prezentace slidy 100-144:
   - `document`
   - výběr prvků
   - manipulace s DOM
+
+## 4. Bře 2025, Út 17:30–20:30 -- JavaScript: Dokončení
+- DOM
   - classList API
 - události (Events)
   - `EventListener`
 - JSON
 - XHR požadavky
   - AJAX 
-
-## 4. Bře 2025, Út 17:30–20:30 -- Flask?
+- Flask
