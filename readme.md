@@ -135,6 +135,7 @@ Prošli jsme z prezentace slidy 100-144:
   - `.filter()`
 
 ## 27. Úno 2025, Čt 17:30–20:30 -- JavaScript: Pokračování
+Prošli jsme z prezentace slidy 145-185:
 - pole (arrays)
   - `.indexof()`
   - `.slice()`
@@ -166,6 +167,7 @@ Prošli jsme z prezentace slidy 100-144:
   - manipulace s DOM
 
 ## 4. Bře 2025, Út 17:30–20:30 -- JavaScript: Dokončení
+Prošli jsme z prezentace slidy 186-216: 
 - DOM
   - classList API
 - události (Events)
@@ -173,4 +175,7 @@ Prošli jsme z prezentace slidy 100-144:
 - JSON
 - XHR požadavky
   - AJAX 
-- Flask
+- Cookies
+  - knihovna js-cookie 
+- localStorage
+- sessionStorage

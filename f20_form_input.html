@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form input</title>
+</head>
+<body>
+    <form id="form1">
+        Jméno: <input id="name" type="text" name="name"><br>
+        Příjmení: <input id="surname" type="text" name="surname"><br>
+        <input type="button" onclick="validateForm()" value="Odeslat">
+    </form>
+
+    <p id="result"></p>
+
+    <hr>
+
+    <form id="form2">
+        Zadejte nezáporné celé číslo:
+        <input type="number" id="number1" name="number1" min="0" max="100">
+        <input type="button" onclick="factorial()" value="Spočítej faktoriál">
+    </form>
+
+    <p id="fact-result"></p>
+
+    <hr>
+
+    <form id="form3">
+        <label for="number2">Zadejte nezáporné celé číslo:</label>
+        <input type="number" id="number2" name="number1" min="0" max="100"
+            onchange="factorial2()">
+    </form>
+
+    <p id="fact-result2"></p>
+
+    <script src="js/code_20_form_input.js"></script>
+</body>
+</html>
