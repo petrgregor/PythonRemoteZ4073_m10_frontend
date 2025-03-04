@@ -35,3 +35,17 @@ document.getElementById("id-paragraph2").innerHTML = "<b>Ahoj světe.</b>";
 
 console.log(document.getElementById("id-paragraph2").innerText);
 console.log(document.getElementById("id-paragraph2").innerHTML);
+
+// classList API
+console.log("classList API");
+console.log(document.getElementById('main-div').classList);
+
+// contains
+console.log(document.getElementById('main-div').classList.contains('mb-5'));
+console.log(document.getElementById('main-div').classList.contains('mt-5'));
+
+// add
+document.getElementById('main-div').classList.add('new-class-name');
+
+// remove
+document.getElementById('main-div').classList.remove('mt-5');
